@@ -20,7 +20,7 @@ export const Admin = () => {
       console.log(formData)
    
      
-      const create={
+      const Data={
        
         "employee_name": formData.employee_name,
         "employee_id":formData.employee_id,
@@ -38,7 +38,7 @@ export const Admin = () => {
         headers:{
             "content-type":"application/json",
         },
-        body:JSON.stringify(create),
+        body:JSON.stringify(Data),
       
       }).then(()=>{
         
