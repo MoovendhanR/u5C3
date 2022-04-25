@@ -48,18 +48,18 @@ export const Login = () => {
     return (
       <form onSubmit={handleSubmit} className="loginform" style={{width:"30%", display:"flex", flexDirection:"column", margin:"100px auto"}}>
         <input
+          onChange={handlechange}
           name="email"
           type="text"
           placeholder="Enter username"
           className="login_username"
-          onChange={handlechange}
         />
         <input
+          onChange={handlechange}
           name="password"
           type="text"
           placeholder="Enter password"
           className="login_password"
-          onChange={handlechange}
         />
         <input type="submit" value="SIGN IN" className="login_submit" />
       </form>

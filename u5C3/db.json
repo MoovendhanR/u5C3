@@ -169,23 +169,7 @@
       "": "frontend",
       "id": 11
     },
-    {
-      "employee_name": "",
-      "employee_id": "",
-      "title": "",
-      "salary": 0,
-      "image": "",
-      "username": "",
-      "password": "",
-      "tasks": "",
-      "status": "",
-      "team": "",
-      "": "frontend",
-      "id": 12
-    },
-    {
-      "id": 13
-    },
+   
     {
       "employee_name": "moovi",
       "employee_id": "12",

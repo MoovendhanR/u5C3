@@ -1,10 +1,7 @@
 
-
-
-import { useEffect, useState } from "react";
-
 import axios from "axios"
 
+import { useEffect, useState } from "react";
 export const Home = () => {
   // create statistics for user.
   // get Total user count from DB,
@@ -46,6 +43,10 @@ export const Home = () => {
     {
       numbers.promoted++
     }
+    // if(e.title!="Team Lead" && e.title !="intern"&& e.status!=="terminated")
+    // {
+    //   numbers.promoted++
+    // }
    
   
   })
